@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>REGISTER FORM</h1>
+    <form method="get">
+      <label style="text-align:center ;"fname"><i>Firstname:</i></label>
+      <br /><input
+        id="fname"
+        value="Geetha"
+        readonly
+        required
+        type="text"
+        name-="fname"
+        style="color: blue;"
+        style="text-align: center;"
+      />
+      <br /><label for="sname"><i>Secondname:</i></label> <br /><input
+        placeholder="eg:Harika"
+        id="sname"
+        type="text"
+        name="sname"
+        style="color: brown;"
+      />
+      <br /><label for="regnum"><i>Register Number:</i></label> <br /><input
+        type="text"
+        id="regnum"
+        pattern="[0-9]{1,15}"
+        style="color: chartreuse;"
+      />
+      <br /><label for="mail"><i>email:</i></label> <br /><input
+        id="mail"
+        type="email"
+        placeholder="harikasunkara428@gmail.com"
+        style="color: blue;"
+      />
+      <br /><label for="mnumber"><i>mobile number:</i></label> <br /><input
+        type="tel"
+        name="mobile"
+        id="mbl"
+        pattern="[0-9]{4,}"
+        style="color: crimson;"
+      />
+      <br /><label for="pswrd"><i>Enter password:</i></label> <br /><input
+        autofocus="password"
+        id="password"
+        name="pswd"
+        type="password"
+        style="color: cornflowerblue;"
+      
+      />
+      <br/><label for="d"><i>Date:</i></label>
+      <br/><input id="d" type="date" name="Date"/>
+      <br/><label for="t"><i>Time</i></label>
+      <br/><input id="t" type="time" name="time"/>
+      <br/><label for="rsm"><i>Resume</i></label>
+      <br/><input id="rsm" type="file"/>
+      <br/><label for="clr"><i>Color</i></label>
+      <br/><input id="clr" type="color"/>
+      <br/><input type="checkbox"/>
+      <br/><input type="radio"/>
+      <br/><label for="K"><i>KEY SKILL:</i></label>
+      <br/><input id="K"type="range"/>
+
+      <input type="submit" />
+      </form>
